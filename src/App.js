@@ -6,17 +6,18 @@ import './App.css';
 
 
 import Header from './components/header';
-import Navbar from './navbar';
+import Navbar from './components/navbar';
+import Footer from './components/footer';
 
 
 function App() {
   return (
     <React.Fragment>
 
-     < Header />
+      < Header />
 
-     <Navbar />
-   
+      <Navbar />
+
     </React.Fragment>
 
   );

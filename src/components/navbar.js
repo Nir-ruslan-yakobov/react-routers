@@ -1,10 +1,10 @@
 import React from 'react';
 import {BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom'
 
-import About from './components/about'
-import Contact from './components/contact';
-import User from './components/user';
-import Home from './components/home';
+import About from './about'
+import Contact from './contact';
+import User from './user';
+import Home from './home';
 
 
 
@@ -18,13 +18,13 @@ function Navbar () {
                     <div className="collapse navbar-collapse" id="navbarNav">
                         <ul className="navbar-nav">
                             <li className="nav-item active">
-                            <Link to="/home"> <p className="nav-link">Home</p> </Link>
+                            <Link to="/home"> <h5 className="nav-link">Home</h5> </Link>
                             </li>
                             <li className="nav-item">
-                            <Link to="/about"> <p className="nav-link">About</p> </Link>
+                            <Link to="/about"> <h5 className="nav-link">About</h5> </Link>
                             </li>
                             <li className="nav-item">
-                            <Link to="/contact"> <p className="nav-link">Contact</p> </Link>
+                            <Link to="/contact"> <h5 className="nav-link">Contact</h5> </Link>
                             </li>
                         </ul>
                     </div>

@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-function Home () {
+function Home() {
     return (
         <React.Fragment>
             <h3>Home Page</h3>
