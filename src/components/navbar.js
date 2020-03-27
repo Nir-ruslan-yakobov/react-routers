@@ -5,6 +5,7 @@ import About from './about'
 import Contact from './contact';
 import User from './user';
 import Home from './home';
+import Posts from './userpost';
 
 
 
@@ -34,7 +35,8 @@ function Navbar () {
                     <Route path='/home' exact component={Home} />
                     <Route path='/about' component={About} />
                     <Route path='/contact' exact component={Contact} />
-                    <Route path='/contact/:id' component={User} />
+                    <Route path='/contact/:id' exact component={User} />
+                    {/* <Route path='/contact/:id/:postId' component={Posts} /> */}
                 </div>
 
             </Router>

@@ -61,9 +61,6 @@ function Table(props) {
             </ul>
             <br />
             <br />
-
-
-
         </React.Fragment>
     )
 }
